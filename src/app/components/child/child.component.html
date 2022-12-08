@@ -1,0 +1,9 @@
+<div class="input-group mb-3">
+    <input type="text" class="form-control" app-ngModel [(ngModel)]="name">
+    <button type="button" (click)="onClickSubmit()" class="btn btn-success">Submit</button>
+</div>  
+<div class="input-group">
+    <ul>
+        <li *ngFor="let i of arr" app-input>{{i}}</li>
+    </ul>
+</div>

@@ -1,0 +1,19 @@
+.btn{
+    margin-left: 20px !important;
+}
+.input-group{
+    padding: 10px 60px;
+    width: 40%;
+}
+ul{
+    padding-left: 19px;
+}
+.list{
+    list-style-type: circle;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #198754;
+    color: #198754;
+    font-weight: 600;
+    font-size: 18px;
+}
